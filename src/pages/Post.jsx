@@ -61,7 +61,7 @@ export default function Post() {
                 <div className="browser-css">
                     {parse(post.content)}
                     </div>
-            </Container>
+            </Container> 
         </div>
     ) : null;
 }
